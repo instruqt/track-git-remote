@@ -2,7 +2,8 @@
 import libraries
 
 progress = instruqt.user.course_level("Git")
+user_name = instruqt.user.name()
 
 if progress=="intermediate":
-    print('''congratulations, you are already at intermediate level in Git.
+    print('''congratulations''', user_name, '''you are already at intermediate level in Git.
           Keep up the good work!''')
